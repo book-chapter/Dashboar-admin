@@ -38,14 +38,14 @@ session_start(); // Memulai session untuk mengecek status login
         <!-- Sidebar navigation -->
         <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
           <ul id="sidebarnav">
-          <li class="nav-small-cap">
+            <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="index.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-user"></i>
                 </span>
                 <span class="hide-menu">Management User</span>
               </a>
@@ -53,7 +53,7 @@ session_start(); // Memulai session untuk mengecek status login
             <li class="sidebar-item">
               <a class="sidebar-link" href="bab_buku.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-article"></i>
+                  <i class="ti ti-book"></i>
                 </span>
                 <span class="hide-menu">Manajemen Bab Buku</span>
               </a>
@@ -61,7 +61,7 @@ session_start(); // Memulai session untuk mengecek status login
             <li class="sidebar-item">
               <a class="sidebar-link" href="verifikasi_pembayaran.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-article"></i>
+                  <i class="ti ti-credit-card"></i>
                 </span>
                 <span class="hide-menu">Verifikasi Pembayaran</span>
               </a>

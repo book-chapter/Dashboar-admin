@@ -38,7 +38,7 @@ session_start(); // Memulai session untuk mengecek status login
             <li class="sidebar-item">
               <a class="sidebar-link" href="index.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-user"></i>
                 </span>
                 <span class="hide-menu">Management User</span>
               </a>
@@ -46,7 +46,7 @@ session_start(); // Memulai session untuk mengecek status login
             <li class="sidebar-item">
               <a class="sidebar-link" href="bab_buku.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-article"></i>
+                  <i class="ti ti-book"></i>
                 </span>
                 <span class="hide-menu">Manajemen Bab Buku</span>
               </a>
@@ -54,7 +54,7 @@ session_start(); // Memulai session untuk mengecek status login
             <li class="sidebar-item">
               <a class="sidebar-link" href="verifikasi_pembayaran.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-credit-card"></i>
                 </span>
                 <span class="hide-menu">Verifikasi Pembayaran</span>
               </a>
@@ -70,7 +70,6 @@ session_start(); // Memulai session untuk mengecek status login
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <!-- Ambil jumlah pengguna dari database -->
             <?php
             // Koneksi ke database
             $servername = "localhost";
