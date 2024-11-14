@@ -23,7 +23,7 @@ session_start(); // Memulai session untuk mengecek status login
     <aside class="left-sidebar">
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.php" class="text-nowrap logo-img">
+          <a href="./dashboard_admin.php" class="text-nowrap logo-img">
             <img src="./src/assets/images/logos/dark-logo.svg" width="180" alt="Logo" />
           </a>
         </div>
@@ -36,7 +36,7 @@ session_start(); // Memulai session untuk mengecek status login
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="index.php" aria-expanded="false">
+              <a class="sidebar-link" href="dashboard_admin.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-user"></i>
                 </span>
